@@ -20,6 +20,52 @@ Pueden escribirme, con gusto respondo.
 
 ---
 
+# pero antes de la charla, que es eso?
+- **_Una herramienta_**
+- Editor de texto que nace en 1991 (somos de la misma generacion).
+- Desarrollado por Bram Moolenaar.
+- Presente en Unix.
+
+---
+
+# VIM vs NVIM
+
+```
+                                                                           
+           ,::::::~y: ::::::,                        `       `             
+          ,7++++^+BN%R=^++++c^                      ~{,      z~            
+          'f=~~~^j@QQQt;~~~;w;                     !yj7`     nk;           
+           `I~~~|@QQQQ^~~~!6!                    `*aaytL`    {A6|          
+           `I~~~|@QQ#;~~~^q~                     :IyayYY^    uqqq~         
+           `I~~~|@Qb~~~~*Q!                      ~Ynayuuu~   {KKK;         
+           ;I~~~|@k_~~~LQQD~                     ~uuj5}}fn'  fbdd;         
+          >kx~~~|c~~~~}@QQQg?                    ~ff}L7jjjJ` jDDD;         
+         ;RQx~~~=~~~;y@QQQQQQ;                   ~jjj*'fjjj| jRRR;         
+          |@x~~~~~~iw@QQQQQ@L                    ~jyy* ~yyyy^y%%%;         
+           +I~~~~~!WbQQQQQ@^                     ~yyy?  <555y6ggg!         
+           `I~~~~=QEQQXQqQo|;                    ;ooa|   7aaaKW88!         
+           `I~~~*QQ?@KyR^Jn*;                    ;ZZZL   .ySSb%NN!         
+           `I~~z@Qjd@?@QT,jj                     '5mmL    ,mwb%gR,         
+           `{^{{I@*@QyXXd^tX                      'jwL     ^EDgA,          
+            ,^~  ^@Q@> `` ``                       `zL      \Do`           
+                  ~Q;                               `~      `i`            
+                                                                           
+
+```
+
+---
+
+# veni, definime eso.
+
+- NeoVim es un fork de Vim enfocado en posibilidades de expansion.
+- Vim es mantenido por su creador con ayuda de la comunidad, NeoVim es mantenido por la comunidad.
+- la mayoria de nuevas funcionalidades (por ejemplo async) llegan primero a Neovim y despues son implementadas por Vim.
+
+## Pero entonces, cual?
+Como es una herramienta, la respuesta es el que prefieras... o ninguno.
+
+---
+
 # Vim Es Amor
 
 Holi 👋
@@ -57,3 +103,10 @@ y como toda herramienta lo importante es sentirte a gusto usandola.
 
 X o Y teclado no te hacen mejor desarrollador o desarrolladora, pero ayudan a moverte de forma mas
 comoda, lo cual se refleja en mejor codigo u horas mas amenas mientras trabajas.
+
+---
+
+# Comandos!
+
+---
+---

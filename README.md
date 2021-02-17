@@ -8,8 +8,10 @@ styles: {}
 
 # Quien es este man?
 
+Holi 👋
+
 Front End Developer, aprendiendo Back, proyectos de todo tipo.
-Como todos: aprendiendo todo el tiempo y 
+Como todos: aprendiendo todo el tiempo.
 
 # Redes Sociales
 
@@ -55,22 +57,22 @@ Pueden escribirme, con gusto respondo.
 
 ---
 
-# veni, definime eso.
+# competencia o amigos?
 
 - NeoVim es un fork de Vim enfocado en posibilidades de expansion.
 - Vim es mantenido por su creador con ayuda de la comunidad, NeoVim es mantenido por la comunidad.
 - la mayoria de nuevas funcionalidades (por ejemplo async) llegan primero a Neovim y despues son implementadas por Vim.
 
 ## Pero entonces, cual?
-Como es una herramienta, la respuesta es el que prefieras... o ninguno.
+Es una herramienta entonces la respuesta es: el que prefieras... o ninguno.
 
 ---
 
 # Vim Es Amor
 
-Holi 👋
 
-Vim es como el amor de un perrito, hay que cuidarlo y poner de nuestra parte
+Vim es como el amor de un perrito, hay que cuidarlo y poner de nuestra parte, cuando se crea la
+relacion no vas a querer dejarlo.
 
 ```
 
@@ -83,6 +85,7 @@ Vim es como el amor de un perrito, hay que cuidarlo y poner de nuestra parte
 /_/_____/____/_______|
 
 ```
+
 ---
 
 # Pero... para que?
@@ -90,10 +93,12 @@ Vim es como el amor de un perrito, hay que cuidarlo y poner de nuestra parte
 Si ya tengo VSCode o Sublime porque voy a perder mi tiempo con Vim? eso no es de los 90s? ok BOOMER!
 
 ---
-
+# La respuesta es:
 - Configuraciones
-- Divertido
+- Divertido y retador
 - Comodidad
+- esta en todos los servidores
+- hipster
 
 ---
 
@@ -102,11 +107,37 @@ Si ya tengo VSCode o Sublime porque voy a perder mi tiempo con Vim? eso no es de
 y como toda herramienta lo importante es sentirte a gusto usandola.
 
 X o Y teclado no te hacen mejor desarrollador o desarrolladora, pero ayudan a moverte de forma mas
-comoda, lo cual se refleja en mejor codigo u horas mas amenas mientras trabajas.
+comoda, lo cual se refleja en mejor codigo u horas mas amenas mientras trabajas, pasa lo mismo con Vim.
 
 ---
 
-# Comandos!
+# "Vim is not an editor, its an instrument"
+BeginBot - sep 6, 2020
+
+lo dijo en [esta presentacion](https://www.youtube.com/watch?v=EJqnWXDJZr0&t=343s&ab_channel=Beginbot),
+y les recomiendo que si les gusta el tema de vim y la programacion vean sus videos, el sabe mucho mas que yo.
 
 ---
+
+# Comandos y mappings!
+Son el alma, corazon y motor de vim, la razon por la que nos gusta y lo que probablemente modifiquemos mas.
+
+- SALIR -> :q
+- Guardar -> :w
+- Ir a la linea N -> :n
+- Cambiar al Buffer n -> :bn
+
+```vim
+
+" Esto es un ejemplo de como puedo hacer mappings
+nnoremap <leader>udt :undotreetoggle<cr>
+nnoremap <UP> :echo 'NO USAR LAS ARROW KEYS!'<cr>
+
+```
+
 ---
+
+# ColorSchemes
+
+- Vim tiene muchos integrados y miles por descubrir.
+- posibilidad de crear nuevos como guste [por ejemplo usando esto](https://github.com/ChristianChiarulli/nvcode-color-schemes.vim)

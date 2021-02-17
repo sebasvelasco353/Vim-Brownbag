@@ -9,8 +9,9 @@ styles: {}
 # Quien es este man?
 
 Front End Developer, aprendiendo Back, proyectos de todo tipo.
+Como todos: aprendiendo todo el tiempo y 
 
-## Redes Sociales
+# Redes Sociales
 
 Pueden escribirme, con gusto respondo.
 - [Twitch: velas_code](twitch.tv/velas_code)
@@ -56,6 +57,3 @@ y como toda herramienta lo importante es sentirte a gusto usandola.
 
 X o Y teclado no te hacen mejor desarrollador o desarrolladora, pero ayudan a moverte de forma mas
 comoda, lo cual se refleja en mejor codigo u horas mas amenas mientras trabajas.
-
-
----

@@ -1,9 +1,7 @@
 ---
 title: Vim es amor 
 author: Sebastian Velasco (twitch.tv/velas_code) 
-date: 2021-02-13
-extensions: []
-styles: {} 
+date: 2021-03-07
 ---
 
 # Quien es este man?
@@ -11,6 +9,7 @@ styles: {}
 Holi 👋
 
 Front End Developer, aprendiendo Back, proyectos de todo tipo.
+
 Como todos: aprendiendo todo el tiempo.
 
 # Redes Sociales
@@ -23,10 +22,11 @@ Pueden escribirme, con gusto respondo.
 ---
 
 # pero antes de la charla, que es eso?
-- **_Una herramienta_**
+- **Una herramienta**
+- vi -> vim -> neoVim
 - Editor de texto que nace en 1991 (somos de la misma generacion).
 - Desarrollado por Bram Moolenaar.
-- Presente en Unix.
+- Presente en Unix y por eso mismo en la mayoria de servidores.
 
 ---
 
@@ -59,7 +59,7 @@ Pueden escribirme, con gusto respondo.
 
 # competencia o amigos?
 
-- NeoVim es un fork de Vim enfocado en posibilidades de expansion.
+- NeoVim es un fork de Vim enfocado en expansion y modificacion.
 - Vim es mantenido por su creador con ayuda de la comunidad, NeoVim es mantenido por la comunidad.
 - la mayoria de nuevas funcionalidades (por ejemplo async) llegan primero a Neovim y despues son implementadas por Vim.
 
@@ -68,11 +68,12 @@ Es una herramienta entonces la respuesta es: el que prefieras... o ninguno.
 
 ---
 
-# Vim Es Amor
-
+# Es cuestion de practica y amor. 
 
 Vim es como el amor de un perrito, hay que cuidarlo y poner de nuestra parte, cuando se crea la
 relacion no vas a querer dejarlo.
+
+Ademas, si quieres que haga cosas te toca entrenarlo.
 
 ```
 
@@ -93,12 +94,11 @@ relacion no vas a querer dejarlo.
 Si ya tengo VSCode o Sublime porque voy a perder mi tiempo con Vim? eso no es de los 90s? ok BOOMER!
 
 ---
-# La respuesta es:
-- Configuraciones
-- Divertido y retador
-- Comodidad
-- esta en todos los servidores
-- hipster
+- Configuraciones.
+- Divertido y retador.
+- Comodidad.
+- Esta en todos los unix systems.
+- Nerd points.
 
 ---
 
@@ -126,6 +126,7 @@ Son el alma, corazon y motor de vim, la razon por la que nos gusta y lo que prob
 - Guardar -> :w
 - Ir a la linea N -> :n
 - Cambiar al Buffer n -> :bn
+- Movimiento -> hjkl
 
 ```vim
 
@@ -133,6 +134,18 @@ Son el alma, corazon y motor de vim, la razon por la que nos gusta y lo que prob
 nnoremap <leader>udt :undotreetoggle<cr>
 nnoremap <UP> :echo 'NO USAR LAS ARROW KEYS!'<cr>
 
+```
+
+---
+
+# map vs noremap
+- map es recursivo, es decir que va a llamar a lo que corresponde el comando (incluso si es un map)
+- noremap es no recursivo, es decir que no va a mapear un map.
+
+```vim
+:map u $  <-- final de la linea
+:map r u  <-- ejecuta u, osea que es el final de la linea
+:noremap s r <-- va a ejecutar un replace, es decir el comando original de la r
 ```
 
 ---
